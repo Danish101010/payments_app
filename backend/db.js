@@ -1,7 +1,7 @@
 
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb+srv://admin:125issac@cluster0.ts8uuyu.mongodb.net/')
+mongoose.connect(mongourl)
     .then("Mongo Connected")
 
 // simple schema
